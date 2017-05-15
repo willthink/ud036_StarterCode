@@ -1,5 +1,5 @@
 import media
-import fresh_tomatos
+import fresh_tomatoes
 
 avengers3 = media.Movie("Avengers 3",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BOGQ5NTY3NjktYjIzNS00Y2ZjLWIyODQtMjQzYzg1ZTMzOGI5XkEyXkFqcGdeQXVyNDMwMzEyNzA@._V1_.jpg",
@@ -27,4 +27,5 @@ back_future = media.Movie("Back to the Future",
 
 movies = [forrest_gump, shaw_red, avengers3,
           dark_knight, start_wars, back_future]
-fresh_tomatos.open_movies_page(movies)
+
+fresh_tomatoes.open_movies_page(movies)
