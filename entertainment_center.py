@@ -6,7 +6,7 @@ avengers3 = media.Movie("Avengers 3",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BOGQ5NTY3NjktYjIzNS00Y2ZjLWIyODQtMjQzYzg1ZTMzOGI5XkEyXkFqcGdeQXVyNDMwMzEyNzA@._V1_.jpg",  # NOQA
                         "https://www.youtube.com/watch?v=pfQeLSDX4DQ")
 
-forrest_gump = media.Movie("Forrest Gump",
+forrest_gump = media.Movie("Forrest Gump", 
                            "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,757,1000_AL_.jpg",  # NOQA
                            "https://www.youtube.com/watch?v=bLvqoHBptjg")
 
