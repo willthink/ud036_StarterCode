@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# create movies using media.Movie class
 avengers3 = media.Movie("Avengers 3",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BOGQ5NTY3NjktYjIzNS00Y2ZjLWIyODQtMjQzYzg1ZTMzOGI5XkEyXkFqcGdeQXVyNDMwMzEyNzA@._V1_.jpg",
                         "https://www.youtube.com/watch?v=pfQeLSDX4DQ")
@@ -25,7 +26,9 @@ back_future = media.Movie("Back to the Future",
                           "https://images-na.ssl-images-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,643,1000_AL_.jpg",
                           "https://www.youtube.com/watch?v=qvsgGtivCgs")
 
+# add movie instances into array of movies 
 movies = [forrest_gump, shaw_red, avengers3,
           dark_knight, start_wars, back_future]
 
+# create html page
 fresh_tomatoes.open_movies_page(movies)
